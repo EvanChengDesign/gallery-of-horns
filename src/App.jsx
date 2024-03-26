@@ -1,8 +1,7 @@
-import "./style.css";
-import React from "react";
-import Header from '../components/Header.jsx';
-import Gallery from '../components/Gallery.jsx';
-import Footer from '../components/Footer.jsx';
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Gallery from './components/Gallery';
 
 
 function App() {
@@ -16,4 +15,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
