@@ -1,7 +1,8 @@
 import "./style.css";
-import Header from './components/Header.jsx';
-import Content from './components/Content.jsx';
-import Footer from './components/Footer.jsx';
+import React from "react";
+import Header from '../components/Header.jsx';
+import Gallery from '../components/Gallery.jsx';
+import Footer from '../components/Footer.jsx';
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
       <Header title="Horned Beasts" />
-      <Content />
+      <Gallery />
       <Footer />
     </>
   )
