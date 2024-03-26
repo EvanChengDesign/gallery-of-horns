@@ -11,30 +11,28 @@ Currently, two official plugins are available:
 
 Feature #1: Display Images:
 
-Estimate of time needed to complete: 40 minutes
+Estimate of time needed to complete: 10 minutes (was able to complete the function in the prior lab001)
 Start time: 4:30 pm EST
 
-Finish time: _____
+Finish time: 4:35pm EST
 
-Actual time needed to complete: _____
+Actual time needed to complete: 5 minutes
 
 ---
 Feature #2: Allow Users to Favorite Individual Beasts
 
-Estimate of time needed to complete: 40 minutes
-Start time: 
+Estimate of time needed to complete: 45 minutes
+Start time: 4:41pm EST
 
-Finish time: _____
-
-Actual time needed to complete: _____
+Finish time: 5:18
+Actual time needed to complete: 37 minutes
 
 ---
 
 Feature #3: Bootstrap
 
-Estimate of time needed to complete: 40 minutes
-Start time: 
-
+Estimate of time needed to complete: 35 minutes
+Start time: 5:20pm EST
 Finish time: _____
 
 Actual time needed to complete: _____
