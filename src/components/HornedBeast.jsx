@@ -4,7 +4,7 @@ function HornedBeast({ title, imageUrl, description }) {
   return (
     <div>
       <h2>{title}</h2>
-      <img src={imageUrl} alt={title} title={title} />
+      <img src={imageUrl} alt={title} title={title} className="horned-beast-image"/>
       <p>{description}</p>
     </div>
   );
