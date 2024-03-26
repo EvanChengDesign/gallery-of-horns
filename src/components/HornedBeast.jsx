@@ -13,7 +13,7 @@ function HornedBeast({ title, imageUrl, description }) {
 
   return (
     <Card style={{ width: '18rem', margin: '10px' }}> 
-      <Card.Img variant="top" src={imageUrl} alt={title} onClick={addFavorite} />
+      <Card.Img variant="top" src={imageUrl} alt={title}/>
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{description}</Card.Text>
