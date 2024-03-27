@@ -46,3 +46,15 @@ Actual time needed to complete: 25 minutes
 ### Lighthouse Score Lab002
 
 ![Lighthouse Score Lab002](src/images/LighthouseLab002.png)
+
+
+# Lab003
+
+Feature #1: Display a Modal
+
+Estimate of time needed to complete: 2 hours
+Start time: 4:20 pm EST
+
+Finish time: 
+
+Actual time needed to complete: 
