@@ -55,6 +55,9 @@ Feature #1: Display a Modal
 Estimate of time needed to complete: 2 hours
 Start time: 4:20 pm EST
 
-Finish time: 
+Finish time: 5:40 pm EST 
 
-Actual time needed to complete: 
+Actual time needed to complete: 1 hour 20 minutes
+
+### Lighthouse Score Lab003
+![Lighthouse Lab003](src/images/LighthouseLab003.png)
