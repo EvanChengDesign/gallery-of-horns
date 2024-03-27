@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import './index.css'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

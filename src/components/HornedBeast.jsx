@@ -1,12 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+
 
 function HornedBeast({ title, imageUrl, description }) {
+
+  const [favorites, setFavorites] = useState(0);
+
+  const addFavorite = () => {
+    setFavorites(favorites + 1);
+  };
+
   return (
-    <div>
-      <h2>{title}</h2>
-      <img src={imageUrl} alt={title} title={title} className="horned-beast-image"/>
-      <p>{description}</p>
-    </div>
+    <Card style={{ width: '18rem', margin: '10px' }}> 
+      <Card.Img variant="top" src={imageUrl} alt={title}/>
+      <Card.Body>
+        <Card.Title>{title}</Card.Title>
+        <Card.Text>{description}</Card.Text>
+        <Button variant="primary" onClick={addFavorite}>❤️ {favorites}</Button>
+      </Card.Body>
+    </Card>
   );
 }
 
