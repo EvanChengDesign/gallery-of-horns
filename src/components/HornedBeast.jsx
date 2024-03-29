@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
@@ -17,14 +16,5 @@ function HornedBeast({ _id, title, image_url, description, favorites, onFavorite
   );
 }
 
-HornedBeast.propTypes = {
-  _id: PropTypes.number.isRequired,
-  title: PropTypes.string.isRequired,
-  image_url: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  favorites: PropTypes.number,
-  onFavorite: PropTypes.func.isRequired,
-  onBeastClick: PropTypes.func.isRequired,
-};
 
 export default HornedBeast;

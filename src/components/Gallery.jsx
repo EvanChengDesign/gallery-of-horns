@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import HornedBeast from './HornedBeast';
 
 const Gallery = ({ beasts, onBeastClick, onFavorite }) => {
@@ -21,18 +20,6 @@ const Gallery = ({ beasts, onBeastClick, onFavorite }) => {
       ))}
     </div>
   );
-};
-
-Gallery.propTypes = {
-  beasts: PropTypes.arrayOf(PropTypes.shape({
-    _id: PropTypes.number.isRequired,
-    title: PropTypes.string.isRequired,
-    image_url: PropTypes.string.isRequired,
-    description: PropTypes.string,
-    favorites: PropTypes.number
-  })).isRequired,
-  onBeastClick: PropTypes.func.isRequired,
-  onFavorite: PropTypes.func.isRequired
 };
 
 export default Gallery;
