@@ -1,6 +1,5 @@
 import React from 'react';
 import { Modal, Button } from 'react-bootstrap';
-import PropTypes from 'prop-types';
 
 
 const SelectedBeast = ({ beast, show, handleClose }) => {
@@ -23,16 +22,5 @@ const SelectedBeast = ({ beast, show, handleClose }) => {
     </Modal>
   );
 };
-
-SelectedBeast.propTypes = {
-    beast: PropTypes.shape({
-      title: PropTypes.string.isRequired,
-      image_url: PropTypes.string.isRequired,
-      description: PropTypes.string.isRequired,
-    }),
-    show: PropTypes.bool.isRequired,
-    handleClose: PropTypes.func.isRequired,
-  };
-  
 
 export default SelectedBeast;

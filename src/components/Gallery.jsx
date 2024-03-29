@@ -1,24 +1,28 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
 
-
-const Gallery = ({ beasts, onBeastClick }) => {
+const Gallery = ({ beasts, onBeastClick, onFavorite }) => {
   return (
     <div className="gallery-container">
       {beasts.map((beast, index) => (
-        <div key={index} onClick={() => onBeastClick(beast)}>
-        <HornedBeast
-          key={index}
-          title={beast.title}
-          imageUrl={beast.image_url}
-          description={beast.description}
-        />
-    </div>
+        <div key={index}>
+          <HornedBeast
+            key={beast._id}
+            _id={beast._id}
+            title={beast.title}
+            image_url={beast.image_url}
+            description={beast.description}
+            favorites={beast.favorites}
+            onBeastClick={() => onBeastClick(beast)}
+            onFavorite={() => onFavorite(beast._id)}
+          />
+        </div>
       ))}
-   </div>   
+    </div>
   );
 };
 
-
 export default Gallery;
+
+
 

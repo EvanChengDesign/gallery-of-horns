@@ -61,3 +61,8 @@ Actual time needed to complete: 1 hour 20 minutes
 
 ### Lighthouse Score Lab003
 ![Lighthouse Lab003](src/images/LighthouseLab003.png)
+
+# Lab004 
+
+### Lighthouse Score Lab003
+![Lighthouse Lab003](src/images/LighthouseLab004.png)
